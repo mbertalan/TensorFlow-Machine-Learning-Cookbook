@@ -8,7 +8,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-import tensorflow.nn as nn
+#import tensorflow.nn as nn
+import tensorflow.contrib.rnn as nn
 from tensorflow.python.framework import ops
 ops.reset_default_graph()
 
